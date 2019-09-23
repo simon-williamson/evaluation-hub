@@ -1,0 +1,361 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/06/2019, 1:35:45 PM
+    Author     : awahid
+*/
+
+body {
+            margin: 0;
+            font-family: Montserrat, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #16465C;
+            text-align: left;
+            background-color: #fff;
+     }
+
+     
+     .nav-link{
+         font-size: 12px;
+     }
+     
+body>header {
+    background-color: #13212B;
+}     
+ 
+.footer-site {
+    background-color: #13212B;
+    border-top: #fff; 
+}
+
+.header-second-color{
+    color: #19ADD9;
+}
+
+.jumbotron-heading-color {
+    color: #16465C;
+}
+
+.site-header-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+.site-header-brand a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.jumbotron {
+    padding: 5rem 1rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background: #fff;
+}
+
+.jumbotron-heading {
+    color: #16465C;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.jumbo-home-banner {
+    padding: 1rem 1rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: #E3F9FF;   
+    padding-top: 30px;
+}
+
+.jumbo-page-block {
+    padding: 1rem 1rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background: #E3F9FF;
+}
+
+
+.font-blue-color {
+    color:#16465C;
+}
+
+.page-heading {
+    color: #061E2B;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.jumbo-block {
+    padding: 5rem 1rem;
+    margin-top: 0;
+    border-radius: 0px;
+    background: #fff;
+}
+
+.lightgrey {
+    /* background: #F2F2F2;
+    background: #EFF7FF;*/
+    background: #E3F9FF;
+}
+
+.white {
+    background: #fff;
+}
+
+.typography, p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1, .h2, .h3, .h4, .h5, .h6, .lead, h1, h2, h3, h4, h5, h6, ol, p, ul {
+    margin-bottom: 1.0rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.0rem;
+}
+
+h3, .block-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #16465C;
+}
+
+.main a {
+    line-height: 1.5rem;
+    color: #0070b7;
+    font-size: .8rem;
+    text-decoration: none;   
+    font-weight: bold;
+}
+
+.btn-transcript {
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    text-decoration: underline !important;
+}
+
+.btn-transcript:hover{
+    text-decoration: none !important;
+}
+.main a:hover {
+    text-decoration: underline;
+}
+
+
+.secondary-footer{
+    background: #19ADD9;
+    color: #fff;
+    padding: 1rem 1rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.footer-nav-links a {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.footer-site {
+    color:#fff;
+    padding: 70px 0px;
+}
+.breadcrumb {
+    background-color: transparent;
+}
+.page-content {
+    padding: 20px 0px;
+    min-height: 200px;
+}
+
+.block-thin-heading {
+    font-weight: normal !important;
+}
+
+figure.leftAlone, img.leftAlone {
+    margin: 0 18px 18px 0;
+    display: inline-block;
+    clear: both;
+}
+
+blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.50rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    border-left: 0px;
+}
+
+blockquote:before {
+    content: open-quote;
+    display: inline-block;
+    position: relative;
+    left: -10px;
+    top: 45px;
+    font-size: 100px;
+    opacity: 0.27;
+}
+blockquote:after {
+    content: close-quote;
+    position: relative;
+    font-size: 100px;
+    display: inline-block;
+    opacity: 0.27;
+    right: 0px;
+    margin-top: -30px;
+    bottom: -65px;
+}
+
+.home-evaluation-widget {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #007DB5;
+    color: #fff !important;
+    padding-bottom: 20px;
+    display:inline-block;
+    text-align: left;
+}
+
+
+.home-evaluation-widget2 {
+    vertical-align: top;
+    color: #fff !important;
+    padding-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+.home-evaluation-widget2-background {
+    background-image: url("img/Image%201.png");
+    width: 100%;
+    position: relative;
+}
+
+.home-evaluation-widget2-trans {
+    background-color: #0087B4;
+    opacity: 0.95;
+    width: 100%;
+}
+
+.home-evaluation-widget3-background {
+    margin-top: 20px;
+    background-image: url("img/Image%203.png");
+    width: 100%;
+    position: relative;
+}
+
+.home-evaluation-widget3-trans {
+    background-color: #00B2E1;
+    opacity: 0.95;
+    width: 100%;
+}
+
+.home-evaluation-widget3 {
+    vertical-align: bottom;
+    color: #fff !important;
+    padding-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+
+.home-evaluation-widget > h3, .home-evaluation-widget .block-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home-evaluation-widget > p {
+    color: #fff;
+    border-color: #fff;
+
+}
+
+.btn-white-outline {
+    color: #fff;
+    border-color: #fff;
+    
+}
+
+.btn-blue-outline{
+    color: #16465C;
+    border-color: #16465C;
+}
+
+.btn-blue{
+    color: #fff;
+    background: #16465C;
+    border-color: #16465C;
+}
+
+.btn-white{
+    color: #19ADD9;
+    background: #fff;
+    border-color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn {
+    font-size: .7rem;
+    
+}
+
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+}
+
+
+.accordion-heading > span
+{
+    font-weight: bold;
+    text-align: left;
+    color: #0070b7;
+    cursor: pointer;
+}
+
+.accordion-heading > p
+{
+    margin-bottom: 0px;
+}
+
+.accordion-group {
+    padding-bottom: 20px;
+}
+
+.accordion
+{
+    padding: 0px 20px;
+}
+
+.p-heading {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+ul.ticklist {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.ticklist li.ticklist-li:before {
+  content: '✓';
+  padding-right: 5px;
+}
